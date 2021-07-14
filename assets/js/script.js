@@ -136,7 +136,7 @@ $("#remove-tasks").on("click", function() {
   saveTasks();
 });
 
-$(".list-group").on("click", "span", function() {
+$(".list-group-flush").on("click", "span", function() {
 
   //get current text
   var date = $(this)
